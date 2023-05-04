@@ -4,7 +4,8 @@ using namespace std;
 // function to heapify the tree
 void heapify(int arr[], int n, int root)
 {
-    int lrg = root;  // set largest as root
+    // set largest as root
+    int lrg = root;  
     int left = 2*root + 1; 
     int right = 2*root + 2;
  
